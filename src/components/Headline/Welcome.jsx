@@ -5,6 +5,7 @@ import { welcomeDogs } from '../../constants/imgList';
 import cafeTitle from '../../assets/images/barkCafe.png';
 import "swiper/css";
 import "./headline.css";
+import Header from './Header';
 
 export default function Welcome() {
 
@@ -19,6 +20,7 @@ export default function Welcome() {
 
     return (
         <section className="dimensions">
+            <Header dimensions={dimensions} />
             <div className={dimensions <= 1024 ? 'containerBig' : "containerSmall"}>
                 {dimensions <= 1024 ?
                     <Swiper
@@ -43,6 +45,12 @@ export default function Welcome() {
                         </div>
                     ))
                 }
+            </div>
+            <div className='titleContainer'>
+                <img src={cafeTitle} alt="title" className='titleImg' />
+                <div className='buttonContainer'>
+                    <button className='menuButton'>See Our Menu</button>
+                </div>
             </div>
         </section>
     )
