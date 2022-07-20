@@ -17,8 +17,15 @@
 }
 
 .logoSize {
+  position: sticky;
+  top: 0;
   height: 100px;
   width: auto;
+}
+
+nav {
+  position: sticky;
+  top: 0;
 }
 
 ul {
