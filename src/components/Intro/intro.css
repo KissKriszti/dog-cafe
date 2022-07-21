@@ -1,7 +1,7 @@
 .sectionContainer {
   width: 100%;
   height: 80vh;
-  margin: 50px 0 20px 0;
+  margin: 50px 0;
   background: linear-gradient(90deg, #fbb6c0 50%, #fed671 50%);
   overflow: hidden;
 }
