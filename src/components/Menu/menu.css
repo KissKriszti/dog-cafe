@@ -79,3 +79,10 @@ h2 {
   height: 388px;
   object-fit: cover;
 }
+
+@media (max-width: 1024px) {
+  .coffeMenuContainer,
+  .dessertPics {
+    margin-bottom: 20px;
+  }
+}

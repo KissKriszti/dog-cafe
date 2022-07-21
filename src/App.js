@@ -1,6 +1,7 @@
 import Welcome from "./components/Headline/Welcome";
 import Intro from "./components/Intro/Intro";
 import Menu from "./components/Menu/Menu";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Welcome />
       <Intro />
       <Menu />
+      <Footer />
     </div>
   );
 }
