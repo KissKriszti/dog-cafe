@@ -3,13 +3,14 @@
   height: 80vh;
   margin: 50px 0 20px 0;
   background: linear-gradient(90deg, #fbb6c0 50%, #fed671 50%);
+  overflow: hidden;
 }
 
 .residentContainer {
   width: 80%;
   height: 100%;
   max-width: 1440px;
-  padding: 10px;
+  padding: 10px 50px;
   margin: auto;
   transform: skew(-20deg);
   background-color: white;
@@ -54,7 +55,7 @@ h4 {
 }
 
 .aboutContainer {
-  padding: 0 100px;
+  padding: 0 110px;
   transform: skew(20deg);
 }
 
@@ -65,4 +66,40 @@ h4 {
 
 p {
   margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .sectionContainer {
+    height: auto;
+  }
+  .residentContainer {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px 0;
+  }
+  .dogContainer {
+    width: 100%;
+    max-width: 800px;
+    justify-content: space-evenly;
+  }
+  .aboutContainer {
+    padding: 0 120px;
+  }
+  .residentTitle {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiperContainer {
+    width: 70%;
+  }
+  .residentImg {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .nameContainer {
+    right: 120px;
+  }
 }
