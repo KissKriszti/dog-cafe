@@ -2,7 +2,7 @@
   width: 100%;
   height: 80vh;
   margin: 50px 0;
-  background: linear-gradient(90deg, #fbb6c0 50%, #fed671 50%);
+  background: linear-gradient(112deg, #fbb6c0 15%, white 10% 84%, #fed671 20%);
   overflow: hidden;
 }
 
@@ -12,16 +12,10 @@
   max-width: 1440px;
   padding: 10px 50px;
   margin: auto;
-  transform: skew(-20deg);
-  background-color: white;
-}
-
-.noskew {
-  transform: skew(20deg);
 }
 
 .residentTitle {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .dogContainer {
@@ -42,7 +36,7 @@
   bottom: 30px;
   width: 90px;
   height: 30px;
-  transform: skew(-20deg);
+  transform: skew(-30deg);
 }
 
 h4 {
@@ -56,12 +50,11 @@ h4 {
 
 .aboutContainer {
   padding: 0 110px;
-  transform: skew(20deg);
 }
 
 .aboutTitle {
   margin-top: 30px;
-  font-size: 28px;
+  font-size: 30px;
 }
 
 p {
@@ -92,6 +85,9 @@ p {
 
 @media (max-width: 768px) {
   .swiperContainer {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     width: 70%;
   }
   .residentImg {
@@ -101,5 +97,11 @@ p {
   }
   .nameContainer {
     right: 120px;
+  }
+  p {
+    line-height: 25px;
+  }
+  .aboutContainer {
+    padding: 0 50px;
   }
 }

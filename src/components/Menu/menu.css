@@ -8,7 +8,8 @@
 
 h2 {
   margin-bottom: 50px;
-  font-size: 28px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .coffeeContainer,
@@ -84,5 +85,20 @@ h2 {
   .coffeMenuContainer,
   .dessertPics {
     margin-bottom: 20px;
+  }
+  .coffeeContainer,
+  .dessertContainer {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .coffeeContainer,
+  .dessertContainer {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
