@@ -23,6 +23,13 @@ import cranberry from "../assets/images/desserts/cranberry.jpg";
 import donut from "../assets/images/desserts/donut.jpg";
 import tiramisu from "../assets/images/desserts/tiramisu.jpg";
 
+import cafe1 from "../assets/images/gallery/cafe1.jpg";
+import cafe2 from "../assets/images/gallery/cafe2.jpg";
+import cafe3 from "../assets/images/gallery/cafe3.jpg";
+import cafe4 from "../assets/images/gallery/cafe4.jpg";
+import cafe5 from "../assets/images/gallery/cafe5.jpg";
+import cafe6 from "../assets/images/gallery/cafe6.jpg";
+
 export const welcomeDogs = [blueDog, orangeDog, pinkDog];
 export const residentDogs = [
   {
@@ -61,4 +68,31 @@ export const dessertList = [
   cranberry,
   donut,
   tiramisu,
+];
+
+export const galleryImgs = [
+  {
+    name: cafe1,
+    color: "#fbb6c0",
+  },
+  {
+    name: cafe2,
+    color: "#fed671",
+  },
+  {
+    name: cafe3,
+    color: "#7acde7",
+  },
+  {
+    name: cafe4,
+    color: "#fbb6c0",
+  },
+  {
+    name: cafe5,
+    color: "#fed671",
+  },
+  {
+    name: cafe6,
+    color: "#7acde7",
+  },
 ];

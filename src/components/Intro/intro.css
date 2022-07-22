@@ -26,8 +26,10 @@
 
 .residentImg {
   height: 250px;
-  width: auto;
+  width: 250px;
   border-radius: 250px;
+  object-fit: cover;
+  object-position: 0 0.2px;
 }
 
 .nameContainer {

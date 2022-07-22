@@ -10,7 +10,7 @@ export default function Header({ dimensions }) {
             </div>
             {dimensions <= 768 ?
                 <nav>
-                    <MenuIcon sx={{ color: 'white' }} fontSize='large' />
+                    <MenuIcon sx={{ color: 'black' }} fontSize='large' />
                 </nav>
                 :
                 <nav>
