@@ -5,7 +5,7 @@ import './footer.css';
 
 export default function Footer() {
     return (
-        <section className="footerContainer">
+        <section id='contact' className="footerContainer">
             <div className='smallerContainer'>
                 <div className='opening'>
                     <h4>Opening hours</h4>

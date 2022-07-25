@@ -25,16 +25,27 @@ nav {
   text-shadow: 0 0 5px rgb(102, 28, 28);
 }
 
-ul {
+.horMenu {
   display: flex;
   column-gap: 100px;
 }
 
-ul li {
+.verMenu {
+  position: absolute;
+  right: 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+
+.horMenu li,
+.verMenu li {
   list-style-type: none;
   color: white;
   font-size: 22px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .containerSmall {

@@ -1,14 +1,14 @@
 export const coffee = [
   {
-    name: "Espresso",
+    name: "Waupresso",
     price: "$2.00",
   },
   {
-    name: "Double Espresso",
+    name: "Double Pawpresso",
     price: "$4.00",
   },
   {
-    name: "Capuccino",
+    name: "Puppyccino",
     price: "$3.00",
   },
   {
@@ -35,7 +35,7 @@ export const coffee = [
 
 export const desserts = [
   {
-    name: "Donut",
+    name: "Dognut",
     price: "$8.00",
   },
   {
@@ -59,7 +59,7 @@ export const desserts = [
     price: "$7.00",
   },
   {
-    name: "Baklava",
+    name: "Barklava",
     price: "$6.00",
   },
   {

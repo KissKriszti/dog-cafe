@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
+import ScrollIntoView from 'react-scroll-into-view';
 import { welcomeDogs } from '../../constants/imgList';
 import cafeTitle from '../../assets/images/barkCafe.png';
 import "swiper/css";
@@ -19,7 +20,7 @@ export default function Welcome() {
     }, []);
 
     return (
-        <section className="dimensions">
+        <section id="home" className="dimensions">
             <Header dimensions={dimensions} />
             <div className={dimensions <= 1024 ? 'containerBig' : "containerSmall"}>
                 {dimensions <= 1024 ?
@@ -49,7 +50,9 @@ export default function Welcome() {
             <div className='titleContainer'>
                 <img src={cafeTitle} alt="title" className='titleImg' />
                 <div className='buttonContainer'>
-                    <button className='menuButton'>See Our Menu</button>
+                    <ScrollIntoView selector="#menu">
+                        <button className='menuButton'>See Our Menu</button>
+                    </ScrollIntoView>
                 </div>
             </div>
         </section>

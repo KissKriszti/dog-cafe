@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 
 export default function Menu() {
     return (
-        <section className="menuContainer">
+        <section id="menu" className="menuContainer">
             <h2>Menu</h2>
             <div className="coffeeContainer">
                 <div className="coffeMenuContainer">

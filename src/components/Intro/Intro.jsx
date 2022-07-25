@@ -18,7 +18,7 @@ export default function Intro() {
     }, []);
 
     return (
-        <section className='sectionContainer'>
+        <section id="about" className='sectionContainer'>
             <div className='residentContainer'>
                 <div className='noskew'>
                     <h2 className='residentTitle'>Residents</h2>
