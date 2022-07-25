@@ -21,10 +21,6 @@
   width: auto;
 }
 
-nav {
-  text-shadow: 0 0 5px rgb(102, 28, 28);
-}
-
 .horMenu {
   display: flex;
   column-gap: 100px;
@@ -46,6 +42,12 @@ nav {
   font-size: 22px;
   font-weight: bold;
   cursor: pointer;
+  text-shadow: 0 0 5px rgb(102, 28, 28);
+}
+
+.horMenu li:hover,
+.verMenu li:hover {
+  color: rgb(102, 28, 28);
 }
 
 .containerSmall {
@@ -111,6 +113,10 @@ nav {
   font-size: 18px;
 }
 
+.menuButton:hover {
+  background-color: #f31d3d;
+}
+
 @media (max-width: 1024px) {
   ul {
     column-gap: 60px;
@@ -123,7 +129,7 @@ nav {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .dimensions {
     height: 50vh;
   }

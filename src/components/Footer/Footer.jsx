@@ -1,6 +1,5 @@
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './footer.css';
 
 export default function Footer() {
@@ -14,13 +13,12 @@ export default function Footer() {
                 </div>
                 <div className='location'>
                     <h4><LocationOnIcon /> Location</h4>
-                    <span>Neverending st 10. 16285</span>
+                    <span>Vác, Hungary 2600</span>
                 </div>
                 <div className='contactInfo'>
                     <h4>+36 (40) 153 245</h4>
                     <div>
-                        <FacebookIcon fontSize='large' />
-                        <InstagramIcon fontSize='large' />
+                        <a href='https://www.linkedin.com/in/krisztina-kiss-bb28a3ba/'><LinkedInIcon fontSize='large' /></a>
                     </div>
                 </div>
             </div>

@@ -51,8 +51,8 @@ export default function Intro() {
                 <div className='aboutContainer'>
                     <h2 className='aboutTitle'>About</h2>
                     <p>Hi, I am Krisztina Kiss, Junior Frontend Developer based in Hungary. I have created this website to showcase my skills in HTML, CSS, and React development. I would like to highlight this website has been made only for the above purpose and the Bark Cafe in question does not exist.</p>
-                    <p>Hi, I am Krisztina Kiss, Junior Frontend Developer based in Hungary. I have created this website to showcase my skills in HTML, CSS, and React development. I would like to highlight this website has been made only for the above purpose and the Bark Cafe in question does not exist.</p>
-                    <p>Hi, I am Krisztina Kiss, Junior Frontend Developer based in Hungary. I have created this website to showcase my skills in HTML, CSS, and React development. I would like to highlight this website has been made only for the above purpose and the Bark Cafe in question does not exist.</p>
+                    <p>I have 5 years of financial experience but web development was always something that interested me more and eventually I changed careers and started learning what I like. The design of Bark Cafe is from Behance and originally was for a Cat Cafe, but I like dogs more.</p>
+                    <p>If you would like to check out the source code for this page, please visit the following <span><a href='https://github.com/KissKriszti/dog-cafe/'>github link</a></span>.</p>
                 </div>
             </div>
         </section>

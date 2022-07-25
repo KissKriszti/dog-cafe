@@ -63,6 +63,10 @@ p {
   margin-top: 30px;
 }
 
+.aboutContainer span {
+  color: blue;
+}
+
 @media (max-width: 1024px) {
   .sectionContainer {
     height: auto;
@@ -85,7 +89,7 @@ p {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .swiperContainer {
     position: relative;
     left: 50%;

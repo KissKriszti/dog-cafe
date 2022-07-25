@@ -49,7 +49,7 @@ export default function Menu() {
                     <img src={yellowLogo} alt="logo" className="backgroundImg" />
                     {desserts.map((item, index) => (
                         <div className="dessertMenu" key={index}>
-                            <span >{item.name}</span>
+                            <span className="menuName">{item.name}</span>
                             <span>..........................................</span>
                             <span><strong>{item.price}</strong></span>
                         </div>

@@ -81,6 +81,10 @@ h2 {
   object-fit: cover;
 }
 
+.menuName {
+  line-height: 20px;
+}
+
 @media (max-width: 1024px) {
   .coffeMenuContainer,
   .dessertPics {
@@ -93,9 +97,12 @@ h2 {
     column-gap: 20px;
     align-items: flex-start;
   }
+  .menuContainer {
+    padding: 0 20px;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .coffeeContainer,
   .dessertContainer {
     flex-wrap: wrap;
