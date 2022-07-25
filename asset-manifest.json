@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dog-cafe/static/css/main.59100ef7.css",
+    "main.css": "/dog-cafe/static/css/main.18cd3341.css",
     "main.js": "/dog-cafe/static/js/main.49ef8c91.js",
     "static/media/tiramisu.jpg": "/dog-cafe/static/media/tiramisu.21c42688aa8ffef757ff.jpg",
     "static/media/cafe1.jpg": "/dog-cafe/static/media/cafe1.9f5995cd7371bdc44a6a.jpg",
@@ -32,11 +32,11 @@
     "static/media/yellow-logo.png": "/dog-cafe/static/media/yellow-logo.bada221cd298fbcc7f04.png",
     "static/media/logo.png": "/dog-cafe/static/media/logo.7199d7327da1725211be.png",
     "index.html": "/dog-cafe/index.html",
-    "main.59100ef7.css.map": "/dog-cafe/static/css/main.59100ef7.css.map",
+    "main.18cd3341.css.map": "/dog-cafe/static/css/main.18cd3341.css.map",
     "main.49ef8c91.js.map": "/dog-cafe/static/js/main.49ef8c91.js.map"
   },
   "entrypoints": [
-    "static/css/main.59100ef7.css",
+    "static/css/main.18cd3341.css",
     "static/js/main.49ef8c91.js"
   ]
 }
