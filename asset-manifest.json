@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dog-cafe/static/css/main.1aab11f1.css",
-    "main.js": "/dog-cafe/static/js/main.420f95d8.js",
+    "main.css": "/dog-cafe/static/css/main.59100ef7.css",
+    "main.js": "/dog-cafe/static/js/main.e6d3e5c5.js",
     "static/media/rexy.jpg": "/dog-cafe/static/media/rexy.969c1c2101ffe32a3158.jpg",
     "static/media/pink_dog.jpg": "/dog-cafe/static/media/pink_dog.90be7c1487a13a99b999.jpg",
     "static/media/tiramisu.jpg": "/dog-cafe/static/media/tiramisu.efb09168ea7b3cdcfbfd.jpg",
@@ -32,11 +32,11 @@
     "static/media/yellow-logo.png": "/dog-cafe/static/media/yellow-logo.bada221cd298fbcc7f04.png",
     "static/media/logo.png": "/dog-cafe/static/media/logo.7199d7327da1725211be.png",
     "index.html": "/dog-cafe/index.html",
-    "main.1aab11f1.css.map": "/dog-cafe/static/css/main.1aab11f1.css.map",
-    "main.420f95d8.js.map": "/dog-cafe/static/js/main.420f95d8.js.map"
+    "main.59100ef7.css.map": "/dog-cafe/static/css/main.59100ef7.css.map",
+    "main.e6d3e5c5.js.map": "/dog-cafe/static/js/main.e6d3e5c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aab11f1.css",
-    "static/js/main.420f95d8.js"
+    "static/css/main.59100ef7.css",
+    "static/js/main.e6d3e5c5.js"
   ]
 }
