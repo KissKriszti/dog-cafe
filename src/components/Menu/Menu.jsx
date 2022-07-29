@@ -28,7 +28,7 @@ export default function Menu() {
                     <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                         {coffeList.map((item, index) => (
                             <SwiperSlide key={index}>
-                                <img src={item} alt="coffee" className="coffeImg" />
+                                <img loading="lazy" src={item} alt="coffee" className="coffeImg" />
                             </SwiperSlide>
                         ))}
                     </Swiper>
@@ -39,7 +39,7 @@ export default function Menu() {
                     <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                         {dessertList.map((item, index) => (
                             <SwiperSlide key={index}>
-                                <img src={item} alt="dessert" className="dessertImg" />
+                                <img loading="lazy" src={item} alt="dessert" className="dessertImg" />
                             </SwiperSlide>
                         ))}
                     </Swiper>

@@ -7,7 +7,7 @@ export default function Gallery() {
             <h2>Gallery</h2>
             <div className="galleryimgContainer">
                 {galleryImgs.map((item, index) => (
-                    <img key={index} src={item.name} alt={item.name} style={{ border: `6px solid ${item.color}` }} className="imgGallery" />
+                    <img loading="lazy" key={index} src={item.name} alt={item.name} style={{ border: `6px solid ${item.color}` }} className="imgGallery" />
                 ))}
             </div>
         </section>

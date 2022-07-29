@@ -27,7 +27,7 @@ export default function Intro() {
                             <Swiper navigation={true} rewind="true" modules={[Navigation]} className="" style={{ position: "relative" }}>
                                 {residentDogs.map((item, index) => (
                                     <SwiperSlide key={index}>
-                                        <img src={item.source} alt={item.name} className="residentImg" style={{ border: `6px solid ${item.color}` }} />
+                                        <img loading="lazy" src={item.source} alt={item.name} className="residentImg" style={{ border: `6px solid ${item.color}` }} />
                                         <div className='nameContainer' style={{ backgroundColor: item.color }}>
                                             <h4>{item.name}</h4>
                                         </div>
