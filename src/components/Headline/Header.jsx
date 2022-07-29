@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import logo from '../../assets/images/logo.png';
 import MenuIcon from '@mui/icons-material/Menu';
-import Menu from './Menu';
+import Navigation from './Navigation';
 import './headline.css';
 
 export default function Header({ dimensions }) {
@@ -20,11 +20,11 @@ export default function Header({ dimensions }) {
             {dimensions <= 768 ?
                 <nav>
                     <button onClick={toggleMenu}><MenuIcon sx={{ color: 'black' }} fontSize='large' /></button>
-                    {showMenu && <Menu showMenu={showMenu} />}
+                    {showMenu && <Navigation showMenu={showMenu} />}
                 </nav>
                 :
                 <nav>
-                    <Menu />
+                    <Navigation />
                 </nav>
             }
         </div>

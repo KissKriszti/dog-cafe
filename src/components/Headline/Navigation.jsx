@@ -1,6 +1,6 @@
 import ScrollIntoView from 'react-scroll-into-view';
 
-export default function Menu({ showMenu }) {
+export default function Navigation({ showMenu }) {
     return (
         <ul className={showMenu ? 'verMenu' : 'horMenu'}>
             <ScrollIntoView selector='#home'>
